@@ -1,0 +1,43 @@
+@media screen and (min-width:800px){
+    main .filme-principal{
+        height: 600px;
+
+    }
+}
+
+@media screen and (max-width:950px){
+    header nav{
+        display:none;
+        
+    }
+    header .menu-button{
+        
+        display:flex;
+        align-items:center;
+        color:white;
+        background-color: rgba(0,0,0,0);
+        border-style:none;
+        margin-left:35px;
+        cursor:pointer;
+        font-size:14px;
+        
+    }
+
+    header .menu{
+        
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+        justify-content:center;
+        color:white;
+        cursor:pointer;
+        font-size:14px;
+        
+    }    
+}
+
+@media screen and (max-width:700px){
+    .sinopse{
+        display:none;
+    }
+}

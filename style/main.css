@@ -1,0 +1,146 @@
+:root{
+    --vermelho: #e50914;
+    --preto: #141414;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* elementos base */
+
+body{
+ background: var(--preto);
+ font-family: "Times New Roman" , Times, serif;
+ color: white;
+}
+
+header .logo{
+    color: var(--vermelho);
+    font-family: 'Bebas Neue', cursive;
+    font-size: 40px;
+    letter-spacing: .15rem;
+    text-decoration:none;
+}
+
+header .container{
+    margin-top: .7rem;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
+header .menu-button{
+    display:none;
+}
+
+header .menu{
+    display:none;
+}
+
+header nav{
+    margin-left: 3rem;
+}
+
+header nav a{
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0 10px 0 10px;
+    font-size: 15px;
+}
+
+header nav a:hover{
+ color: #AAA;
+}
+
+/*filme principal*/
+
+.container{
+    margin-left:40px;
+}
+
+.filme-principal .container{
+    width: 25em;
+}
+.filme-principal {
+    display:flex;
+    font-size:16px;
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url('../img/the_100.jpg');
+    background-size:cover;
+    
+    height:400px;
+    width:100%;
+    
+
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-content: flex-start;
+        
+}
+
+.logo-filme-principal{
+    height: 7rem;
+}
+
+main .sinopse{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 100;
+    text-align:justify;
+}
+
+main .play-button {
+    margin-top:1rem;
+    margin-right:5px;
+    padding:10px 20px;
+    border-radius:3px;
+    border-style: none;
+    font-family: 'Open Sans', sans-serif;
+    font-weight:600;
+    cursor:pointer;
+    
+}
+
+main .play-button:hover {
+    background-color: rgba(255,255,255,.6);      
+}
+
+main .info-button {
+    background-color: rgba(117, 117, 117, 0.7);
+    color:white;
+    margin-top:1rem;
+    padding:10px 20px;
+    border-radius:3px;
+    border-style: none;
+    font-family: 'Open Sans', sans-serif;
+    font-weight:600;
+    cursor:pointer;
+}
+
+main .info-button:hover {
+    background-color: rgba(117, 117, 117, 0.5);           
+}
+
+button i{
+    margin-right:3px;
+}
+
+/*carrossel*/
+.miniatura{
+    margin:20px 0;
+    height:100%;
+    display:block;
+    border-radius:5px;
+}
+
+h4{
+    font-size:15px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+article .container{
+    margin-top:10px;
+}
